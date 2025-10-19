@@ -9,5 +9,5 @@ def multiplicacao(a, b):
 
 def divisao(a, b):
 	if b == 0:
-		raise ValueError("Divisão por zero não é permitida")
+		raise ValueError("Erro: Mão é possível dividir por 0")
 	return a / b
